@@ -1,0 +1,14 @@
+{
+    "python.linting.pylintEnabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+  
+    },
+    "editor.fontSize": 16,
+    "files.defaultLanguage": "py",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "python.pythonPath": "C:\\Users\\surface\\Anaconda3\\python.exe"
+}
