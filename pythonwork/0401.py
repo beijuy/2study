@@ -13,3 +13,4 @@ if x == x[::-1]:
     print("yes")
 else:
     print("no")
+    print()

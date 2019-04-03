@@ -9,6 +9,6 @@
     "editor.fontSize": 16,
     "files.defaultLanguage": "py",
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "python.pythonPath": "C:\\Users\\surface\\Anaconda3\\python.exe",
-    "python.linting.pylintEnabled": true
+    "python.pythonPath": "python",
+    "python.linting.pylintEnabled": true,
 }
