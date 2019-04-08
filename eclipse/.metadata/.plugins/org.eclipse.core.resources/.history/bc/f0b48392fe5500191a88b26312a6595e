@@ -82,15 +82,10 @@ public class Login extends HttpServlet {
 				User user = new User();
 				user.setName(name);
 				user.setPassword(password);
-				response.getWriter().write(name+password);
 				if(isUserOK(user))
 				{
 					response.getWriter().print("<script>alert('µÇÂ¼³É¹¦');</script>");
 					response.sendRedirect("success.jsp");
-				}
-				else
-				{
-					response.sendRedirect("index.jsp");
 				}
 			}
 		}		

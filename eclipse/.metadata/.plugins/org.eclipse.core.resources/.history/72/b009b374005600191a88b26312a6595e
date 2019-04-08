@@ -82,7 +82,6 @@ public class Login extends HttpServlet {
 				User user = new User();
 				user.setName(name);
 				user.setPassword(password);
-				response.getWriter().write(name+password);
 				if(isUserOK(user))
 				{
 					response.getWriter().print("<script>alert('µÇÂ¼³É¹¦');</script>");
@@ -107,6 +106,7 @@ public class Login extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jsp?useUnicode=true&characterEncoding=utf-8","root","zml700104");
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,ResultSet.CONCUR_UPDATABLE);
+			response.getWriter().write(user.getName()+user.getPassword());
             String sql = "select * from jsp where name='"+user.getName()+"'and password='"+user.getPassword()+"'";
             rs = stmt.executeQuery(sql);
             if (rs.next())

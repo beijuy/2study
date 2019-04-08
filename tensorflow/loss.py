@@ -15,9 +15,15 @@ X = rdm.rand(32,2)
 Y_ =[[x1+x2+(rdm.rand()/10.0-0.05)] for (x1, x2) in X]
 
 # 1 定义神经网络的输入，输出，定义向前传播过程
-# shape 定义行和列
+# shape 第一个值为喂入数据，第二个值为维度
 x = tf.placeholder(tf.float32,shape=(None,2))
 y_ = tf.placeholder(tf.float32,shape=(None,1))
+# random_normal([n,m],stddev=,seed=)生成一个正态分布的随机数，n行m列
+# tf.zeros   全0数组    tf.zeros([n,m],int32)
+# tf.ones    全1数组    tf.ones([n,m],int32)
+# tf.fill    全定值数组 tf.fill([3,2],6) 生成[[6,6],[6,6],[6,6]]
+# tf.constant直接给值   tf.constant([3,2,1])
+# stddev 均值 seed 随机数种子
 w1 = tf.Variable(tf.random_normal([2,1],stddev=1,seed=1))
 y = tf.matmul(x,w1)
 
