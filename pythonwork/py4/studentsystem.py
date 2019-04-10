@@ -37,27 +37,27 @@ def showall():
         print("name:%s tel:%s id:%s "%(i.get('name'),i.get('tel'),i.get('id')))
 
 def main():
-    while():
-        choose = input()
+    while(1):
         printMenu()
-        if choose == 0:
+        choose = input()
+        if choose == "0":
             print('Thanks.')
             break
-        elif choose == 1:
+        elif choose == "1":
             name = input('please input name:')
             tel = input('please input tel:')
             id = input('please input id:')
             addStudent(name,tel,id)
-        elif choose == 2:
-            num = input('please input you delete number')
+        elif choose == "2":
+            num = input('please input you delete number') 
             delStudent(num)
-        elif choose == 3:
+        elif choose == "3":
             num = input('please input you modify number')
             name = input('please input name:')
             tel = input('please input tel:')
             id = input('please input id:')
             modifyStudent(num,name,tel,id)
-        elif choose == 4:
+        elif choose == "4":
             showall()
 if __name__ == "__main__":
     main()

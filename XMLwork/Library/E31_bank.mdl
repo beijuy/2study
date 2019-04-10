@@ -27,7 +27,7 @@
 	gridY      	0
 	defaultFont 	(object Font
 	    size       	12
-	    face       	"Œ¢»Ì—≈∫⁄"
+	    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 	    charSet    	134
 	    bold       	FALSE
 	    italics    	FALSE
@@ -171,7 +171,7 @@
 			location   	(841, 113)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -182,7 +182,7 @@
 			nlines     	1
 			max_width  	1538
 			justify    	1
-			label      	"bank manager class view 1722110355 ’≈ù˜¿¯")
+			label      	"bank manager class view 1722110355 ")
 		    (object ClassView "Class" "Use Case View::manager" @2
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
@@ -190,7 +190,7 @@
 			location   	(749, 626)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -221,7 +221,7 @@
 			location   	(818, 320)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -252,7 +252,7 @@
 			location   	(1180, 317)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -283,7 +283,7 @@
 			location   	(742, 873)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -314,7 +314,7 @@
 			location   	(1517, 311)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -345,7 +345,7 @@
 			location   	(1945, 317)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -376,7 +376,7 @@
 			location   	(2372, 323)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -407,7 +407,7 @@
 			location   	(1487, 629)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -488,7 +488,7 @@
 			location   	(418, 629)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -539,7 +539,7 @@
 			location   	(1051, 629)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -580,7 +580,7 @@
 			location   	(1846, 889)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
@@ -610,7 +610,7 @@
 			location   	(1471, 883)
 			font       	(object Font
 			    size       	12
-			    face       	"Œ¢»Ì—≈∫⁄"
+			    face       	"Œ¢ÔøΩÔøΩÔøΩ≈∫ÔøΩ"
 			    charSet    	134
 			    bold       	FALSE
 			    italics    	FALSE
